@@ -13,10 +13,8 @@
     <modules>
         <module>Builder</module>
         <module>Decorator</module>
-        <module>Factory</module>
         <module>HexagonalArchitecture</module>
         <module>Strategy</module>
-        <module>Enterprise</module>
         <module>Spring</module>
     </modules>
 
