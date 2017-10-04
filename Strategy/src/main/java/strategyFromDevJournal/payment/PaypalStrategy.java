@@ -1,4 +1,4 @@
-package strategy.payment;
+package strategyFromDevJournal.payment;
 
 /**
  * Created by Mateusz on 26.09.2017.

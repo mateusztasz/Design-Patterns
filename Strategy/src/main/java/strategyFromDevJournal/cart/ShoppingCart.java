@@ -1,10 +1,10 @@
-package strategy.cart;
+package strategyFromDevJournal.cart;
 
 /**
  * Created by Mateusz on 26.09.2017.
  */
 
-import strategy.payment.PaymentStrategy;
+import strategyFromDevJournal.payment.PaymentStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class ShoppingCart {
     List<Item> items;
 
     public ShoppingCart() {
-        this.items = new ArrayList<Item>();
+        this.items = new ArrayList<>();
     }
 
     public void addItem(Item item) {

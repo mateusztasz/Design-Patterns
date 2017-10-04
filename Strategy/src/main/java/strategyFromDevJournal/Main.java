@@ -1,15 +1,16 @@
-package strategy;
+package strategyFromDevJournal;
 
-import strategy.cart.Item;
-import strategy.cart.ShoppingCart;
-import strategy.payment.CreditCardStrategy;
-import strategy.payment.PaypalStrategy;
+import strategyFromDevJournal.cart.Item;
+import strategyFromDevJournal.cart.ShoppingCart;
+import strategyFromDevJournal.payment.CreditCardStrategy;
+import strategyFromDevJournal.payment.PaypalStrategy;
 
 /**
  * Created by Mateusz on 26.09.2017.
  */
 public class Main {
     public static void main(String[] args) {
+
         ShoppingCart cart = new ShoppingCart();
 
         Item item1 = new Item("1234", 10);
@@ -30,3 +31,5 @@ public class Main {
     }
 
 }
+
+

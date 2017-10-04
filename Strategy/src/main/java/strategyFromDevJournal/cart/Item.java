@@ -1,4 +1,4 @@
-package strategy.cart;
+package strategyFromDevJournal.cart;
 
 /**
  * Created by Mateusz on 26.09.2017.
