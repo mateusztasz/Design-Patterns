@@ -17,24 +17,41 @@
         <module>RxJava</module>
         <module>Spring</module>
         <module>Strategy</module>
+        <module>Java__8__features</module>
+        <module>Java__9__features</module>
     </modules>
     <properties>
         <global.project_groupId>pl.losiem.jestem.designpatterns</global.project_groupId>
         <global.project_artifactId>Design-Patterns</global.project_artifactId>
         <global.project_version>1.0-SNAPSHOT</global.project_version>
+
+        <jdk.version>1.8</jdk.version>
+        <jdk>${env.JAVA_1_8_HOME}</jdk>
     </properties>
 
     <build>
-        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
+                        <source>${jdk.version}</source>
+                        <target>${jdk.version}</target>
+                        <showDeprecation>true</showDeprecation>
+                        <showWarnings>true</showWarnings>
+                        <executable>${jdk}/bin/javac</executable>
+                        <fork>true</fork>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <configuration>
+                        <jvm>${jdk}/bin/java</jvm>
+                        <forkMode>once</forkMode>
+                    </configuration>
+                </plugin>
+
 
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -49,7 +66,7 @@
                     </configuration>
                 </plugin>
             </plugins>
-        </pluginManagement>
+
     </build>
 
     <dependencies>
