@@ -13,9 +13,10 @@
         <module>Builder</module>
         <module>Decorator</module>
         <module>HexagonalArchitecture</module>
-        <module>Strategy</module>
-        <module>Spring</module>
         <module>JMX</module>
+        <module>RxJava</module>
+        <module>Spring</module>
+        <module>Strategy</module>
     </modules>
     <properties>
         <global.project_groupId>pl.losiem.jestem.designpatterns</global.project_groupId>
