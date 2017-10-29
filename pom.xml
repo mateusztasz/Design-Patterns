@@ -9,15 +9,14 @@
     <version>${global.project_version}</version>
 
     <packaging>pom</packaging>
-
     <modules>
         <module>Builder</module>
         <module>Decorator</module>
         <module>HexagonalArchitecture</module>
         <module>Strategy</module>
         <module>Spring</module>
+        <module>JMX</module>
     </modules>
-
     <properties>
         <global.project_groupId>pl.losiem.jestem.designpatterns</global.project_groupId>
         <global.project_artifactId>Design-Patterns</global.project_artifactId>
@@ -53,6 +52,7 @@
     </build>
 
     <dependencies>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
