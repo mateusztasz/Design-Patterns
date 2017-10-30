@@ -25,6 +25,8 @@
         <global.project_artifactId>Design-Patterns</global.project_artifactId>
         <global.project_version>1.0-SNAPSHOT</global.project_version>
 
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
         <jdk.version>1.8</jdk.version>
         <jdk>${env.JAVA_1_8_HOME}</jdk>
     </properties>
