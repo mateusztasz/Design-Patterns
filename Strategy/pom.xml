@@ -11,7 +11,7 @@
         <version>${global.project_version}</version>
     </parent>
 
-    <groupId>pl.losiem.jestem.strategy</groupId>
+    <groupId>pl.losiem.jestem.designpatterns.strategy</groupId>
     <artifactId>strategy</artifactId>
     <name>Strategy</name>
 

@@ -1,4 +1,4 @@
-package spring;
+package backend;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,5 +18,10 @@ public class GreetingController {
     @RequestMapping("/greeting")
     public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
         return new Greeting(counter.incrementAndGet(), hello + name);
+    }
+
+    @RequestMapping("/word")
+    public String word() {
+        return "Dzień dobry";
     }
 }

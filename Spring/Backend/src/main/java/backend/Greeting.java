@@ -1,4 +1,4 @@
-package spring;
+package backend;
 
 /**
  * Created by Mateusz on 02.10.2017.

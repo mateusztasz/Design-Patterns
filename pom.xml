@@ -29,6 +29,9 @@
 
         <jdk.version>1.8</jdk.version>
         <jdk>${env.JAVA_1_8_HOME}</jdk>
+
+        <swagger.version>2.7.0</swagger.version>
+        <spring.boot.version>1.5.8.RELEASE</spring.boot.version>
     </properties>
 
     <build>
